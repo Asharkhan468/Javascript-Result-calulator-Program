@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result Calculator Program</title>
 </head>
 <link rel="stylesheet" href="style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<body class="bg-color">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<body class="bg-body">
 
 
-   
-   <div class="text-center">
 
-    <h2 class="mt-3">Enter Marks To Find Percentage Grade</h2>
+    <div class="text-center">
+
+        <h2 class="mt-3 text-color size">Enter Marks To Find Percentage Grade</h2>
 
 
-    <div class="mt-5">
-        <input class="input-phy" type="number" placeholder="Enter Physics Marks" value="" required> 
-    <br>   <br>
+        <div class="mt-5">
+            <input class="input-phy" type="number" placeholder="Enter Physics Marks" value="" required>
+            <br> <br>
 
-    <input class="input-math" type="number" placeholder="Enter Maths Marks" value="" required> 
-    <br>   <br>
+            <input class="input-math" type="number" placeholder="Enter Maths Marks" value="" required>
+            <br> <br>
 
-    <input class="input-chem" type="number" placeholder="Enter Chemistry Marks" value="" required> <br>   <br>
+            <input class="input-chem" type="number" placeholder="Enter Chemistry Marks" value="" required> <br> <br>
 
-    <input class="input-comp" type="number" placeholder="Enter Computer Marks" value="" required > 
+            <input class="input-comp" type="number" placeholder="Enter Computer Marks" value="" required>
 
-    <br>   <br>
+            <br> <br>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="btn-style">
+            <button type="button" class="btn btn-warning btn-style" onclick="resultCal()">SUBMIT</button>
+        </div>
+
+
+        <hr class="mt-5">
+        <h3 class="mt-5 text-color fw-bold">RESULT DETAILS</h3>
+
+        <div class="mt-5 details">
+
+
+
+            <p class="para4 text-color"></p>
+            <p id="para1" class="text-color"></p>
+            <p class="para2 text-color"></p>
+            <p class="para3 text-color"></p>
+
+
+        </div>
+
     </div>
 
 
-    
-    
 
 
 
 
-    <button type="button" class="btn btn-warning" onclick="resultCal()">SUBMIT</button>
 
-
-    <hr class="mt-5"><h3 class="mt-5">RESULT DETAILS</h3>
-
-    <div class="mt-5 details">
-
-       
-
-        <p class="para4"></p>
-    <p id="para1"></p>
-    <p class="para2"></p>
-    <p class="para3"></p>
-    
-
-    </div>
-
-</div>
-
-    
-    
-
-
-<script src="app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

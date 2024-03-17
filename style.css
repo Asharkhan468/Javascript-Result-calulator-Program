@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: 1em sans-serif;
+    background-color: #E6E3AC;
     
 }
-.bg-body{
-    background-color: #000000;
-}
+
+
+
 input{
     padding: 10px;
     width: 30rem;
@@ -24,6 +26,13 @@ input{
 .font-size{
     font-size: 2.5rem
 }
+.text-color{
+    color: #151145;
+}
+
+.btn-style button:hover{
+    border: 2px double #000000;
+}
 
 @media(max-width:640px){
 
@@ -31,6 +40,10 @@ input{
         padding: 7px;
         width: 20rem;
         background-color: transparent;
+    }
+
+    .size{
+        font-size: 1.4rem;
     }
    
 }
