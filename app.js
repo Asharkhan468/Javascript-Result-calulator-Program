@@ -31,36 +31,36 @@ function resultCal() {
 
 
 
-  tMarks.innerHTML="Total Marks is 400";
+  tMarks.innerHTML="Total Marks: 400";
 
-  paragraph.innerHTML='Your Obtained Marks is ' + obtainedNumber;
+  paragraph.innerHTML='Obtained Marks: ' + obtainedNumber;
 
-  parag.innerHTML="Your Percentage is " + percentage + " % ";
+  parag.innerHTML="Percentage: " + percentage + " % ";
 
 
 
 
   if(percentage<=98.99 && percentage>=79.99){
 
-    grade.innerHTML='You Grade is A+'
+    grade.innerHTML=' Grade: A+'
 
 
   }
 
   else if(percentage<=79.99 && percentage>=69.99){
-    grade.innerHTML='Your Grade is A';
+    grade.innerHTML=' Grade: A';
   }
 
   else if(percentage<=69.99 && percentage>=59.99){
-    grade.innerHTML='Your Grade is B';
+    grade.innerHTML=' Grade: B';
   }
 
   else if(percentage<=59.99 && percentage>=49.99){
-    grade.innerHTML='Your Grade is C';
+    grade.innerHTML=' Grade: C';
   }
 
   else if(percentage<=49.99 && percentage>=39.99){
-    grade.innerHTML='Your Grade is D';
+    grade.innerHTML=' Grade: D';
   }
 
   else{

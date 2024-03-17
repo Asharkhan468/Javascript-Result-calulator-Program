@@ -4,16 +4,9 @@
     box-sizing: border-box;
     
 }
-
-body{
-
-    background-image:url("./assets/Background.avif") ;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:100% , 100% ;
-
+.bg-body{
+    background-color: #000000;
 }
-
 input{
     padding: 10px;
     width: 30rem;
@@ -24,7 +17,20 @@ input{
     margin-top: 200px;
 }
 
-.background{
+.details{
+    font-size: 2rem;
+}
 
-    background-image:url("./assets/flooring-white-space-scene-desk_1258-259.avif") ;
+.font-size{
+    font-size: 2.5rem
+}
+
+@media(max-width:640px){
+
+    input{
+        padding: 7px;
+        width: 20rem;
+        background-color: transparent;
+    }
+   
 }
