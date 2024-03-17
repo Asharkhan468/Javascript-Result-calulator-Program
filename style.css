@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font: 1em sans-serif;
-    background-color: #E6E3AC;
+   
     
 }
 
+body#bg-body {
 
+    background-color: #E6E3AC;
+
+}
 
 input{
     padding: 10px;
